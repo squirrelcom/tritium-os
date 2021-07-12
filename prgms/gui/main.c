@@ -243,7 +243,7 @@ void gui() {
 	terminal_setcolor(0x40);
 	terminal_clear();
 	terminal_setcolor(0x70);
-	terminal_writestring("                             TritiumOS File Browser                             ");
+	terminal_writestring("                             SquirrOS File Browser                             ");
 	terminal_goto(0,24);
 	terminal_writestring(" Esc = exit | F1 = Change disk | F2 = Show file size | F5 = Delete File        ");
 	terminal_putentryat(' ',0x70,79,24);
